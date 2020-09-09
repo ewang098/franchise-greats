@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/franchise-greats/static/css/main.9253476f.chunk.css",
+    "main.js": "/franchise-greats/static/js/main.31df6c9e.chunk.js",
+    "main.js.map": "/franchise-greats/static/js/main.31df6c9e.chunk.js.map",
+    "runtime-main.js": "/franchise-greats/static/js/runtime-main.2a845ff0.js",
+    "runtime-main.js.map": "/franchise-greats/static/js/runtime-main.2a845ff0.js.map",
+    "static/js/2.955bbb04.chunk.js": "/franchise-greats/static/js/2.955bbb04.chunk.js",
+    "static/js/2.955bbb04.chunk.js.map": "/franchise-greats/static/js/2.955bbb04.chunk.js.map",
+    "index.html": "/franchise-greats/index.html",
+    "precache-manifest.f0617ae52bfbca139162ef4369b04b29.js": "/franchise-greats/precache-manifest.f0617ae52bfbca139162ef4369b04b29.js",
+    "service-worker.js": "/franchise-greats/service-worker.js",
+    "static/css/main.9253476f.chunk.css.map": "/franchise-greats/static/css/main.9253476f.chunk.css.map",
+    "static/js/2.955bbb04.chunk.js.LICENSE.txt": "/franchise-greats/static/js/2.955bbb04.chunk.js.LICENSE.txt",
+    "static/media/NBAEastern.3510d7ae.svg": "/franchise-greats/static/media/NBAEastern.3510d7ae.svg",
+    "static/media/NBAWestern.4cd0c1fd.svg": "/franchise-greats/static/media/NBAWestern.4cd0c1fd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a845ff0.js",
+    "static/js/2.955bbb04.chunk.js",
+    "static/css/main.9253476f.chunk.css",
+    "static/js/main.31df6c9e.chunk.js"
+  ]
+}
