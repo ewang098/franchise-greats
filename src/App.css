@@ -1,0 +1,142 @@
+.App{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CDDCDC;
+    background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+    background-blend-mode: screen, overlay;
+    font-weight: bold;
+}
+
+.loadingScreen{
+    font-size: 60px;
+}
+
+.franchise{
+    display: flex;
+    justify-content: space-around;
+    cursor: default;
+    text-align: center;
+    font-size: 64px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgb(71, 71, 71);
+    margin: 10px 5px 5px 5px;
+    padding: 5px;
+}
+
+.search-form{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    width: 50%;
+    border: none;
+    padding: 10px;
+}
+
+.search-button{
+    border: none;
+    padding: 10px 20px;
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navbar-header{
+    text-align: left;
+    font-size: 72px;
+    line-height: 180%;
+    flex: 1 0 auto;
+    cursor: default;
+}
+
+.navbar{
+    color: white;
+    text-shadow: 1px 1px 2px #d9d9d9;
+    height: var(--nav-size);
+    background-color: black;
+    padding: 0 1rem;
+    border-bottom: var(--border);
+    box-shadow: 0px 5px 5px #262626;
+}
+
+.navbar-nav{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    width: calc(var(--nav-size) * 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-button{
+    --button-size: clac(var(--nav-size) * 0.5);
+    width: var(--button-size);
+    height: var(--button-size);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 300ms;
+}
+
+.icon-button:hover{
+    filter: brightness(50%);
+}
+
+.icon-button svg{
+    fill: var(--text-color);
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 50%;
+    box-shadow: 0px 3px 2px #e6e6e6;
+}
+
+.dropdown{
+    position: absolute;
+    top: 125px;
+    width: 100px;
+    transform: translateX(-5%);
+    background-color:#262626;
+    padding: 0.25rem;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.menu-item{
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 75px;
+    border: 2px solid #C0C0C0;
+    margin: 2.5px auto 2.5px auto;
+    background-color: #D3D3D3;
+    cursor: pointer;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.menu-item:hover{
+    background-color: #1a1a1a;
+    font-size: 30px;
+    transition-duration: 0.75s;
+}
