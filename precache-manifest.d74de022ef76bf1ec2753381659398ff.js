@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5efcac65c852c1611da407bf0a7c27a",
+    "revision": "b573bf9ec7e3362b85322151cd155f23",
     "url": "/franchise-greats/index.html"
   },
   {
-    "revision": "92e573cc3ca348f11fe8",
+    "revision": "967de41f777c60d01463",
     "url": "/franchise-greats/static/css/main.9253476f.chunk.css"
   },
   {
-    "revision": "f5fb27b025fb68ae0c79",
-    "url": "/franchise-greats/static/js/2.955bbb04.chunk.js"
+    "revision": "64c3619b5264dbc3806a",
+    "url": "/franchise-greats/static/js/2.4a97582b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/franchise-greats/static/js/2.955bbb04.chunk.js.LICENSE.txt"
+    "url": "/franchise-greats/static/js/2.4a97582b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92e573cc3ca348f11fe8",
-    "url": "/franchise-greats/static/js/main.31df6c9e.chunk.js"
+    "revision": "967de41f777c60d01463",
+    "url": "/franchise-greats/static/js/main.97518c4c.chunk.js"
   },
   {
     "revision": "1e51659fdefff94b1a52",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4cd0c1fd910540766ad3447be2f7d7c8",
     "url": "/franchise-greats/static/media/NBAWestern.4cd0c1fd.svg"
+  },
+  {
+    "revision": "b384f9ef50fa6afc910ec8b9cf447b75",
+    "url": "/franchise-greats/static/media/franchiseGreats.b384f9ef.csv"
   }
 ]);
