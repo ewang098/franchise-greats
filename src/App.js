@@ -3,6 +3,7 @@ import Player from './Player';
 import "./App.css";
 import {ReactComponent as EastIcon} from './icons/NBAEastern.svg';
 import {ReactComponent as WestIcon} from './icons/NBAWestern.svg';
+import data from './data/franchiseGreats.csv';
 
 const App = () =>{
   const api_key = process.env.REACT_APP_API_KEY;
@@ -29,7 +30,7 @@ const App = () =>{
 
   var xhr = new XMLHttpRequest();
   //this csv file is from the webscraper, added Team to first row of csv manually
-  xhr.open("GET",'/data/franchiseGreats.csv',false);
+  xhr.open("GET",data,false);
   xhr.send(null);
 
   var jsonObject = xhr.responseText.split(/\r?\n|\r/);
@@ -84,7 +85,6 @@ const App = () =>{
     }
        
     const getImage = async () => {
-      console.log(api_key);
       for (var i = 0; i < playerArray.length; i++){
         const response = await fetch(`https://www.googleapis.com/customsearch/v1?key=${api_key}&cx=${search_engine_id}&searchType=image&q=${playerArray[i].name}`);
         const data = await response.json();
@@ -95,7 +95,6 @@ const App = () =>{
           playerArray[i].picture = 'https://media.npr.org/assets/img/2016/03/29/ap_090911089838_sq-3271237f28995f6530d9634ff27228cae88e3440-s800-c85.jpg';
         }
       }
-      console.log(playerArray);
       await setTeamTitle(teamAbv);
       await setFG(playerArray);
       await setLoading(false);
